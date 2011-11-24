@@ -1,0 +1,144 @@
+.icur5{
+	-pie-border-radius:5px;
+}
+.icur3{
+	-pie-border-radius:3px;
+}
+.irgbaform{
+	-pie-background:rgba(159,147,134, 0.2);
+}
+.irgbawrapper{
+	-pie-background:rgba(159,147,134, 0.12);
+}
+.iform{
+	-pie-background:rgba(255,255,255,0.96);
+} 
+body#homepage{
+	background-image:url("../img/footer.png");
+	background-repeat:no-repeat;
+	background-position:center bottom;
+	/*-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/footer.png', sizingMethod='crop')" ;*/    
+}  
+html{
+	background:url('../img/main-bg.jpg') top left fixed;
+	height:100%;
+}    
+
+/* homepage */   
+
+#homepage form input {
+    line-height:30px;
+	
+}
+#homepage #invitation input{
+	line-height:42px;  
+	background-color:#B8DDED;
+} 
+#homepage #invitation input[type=submit]{
+	line-height:48px;  
+}
+#homepage form input[type=text], #homepage form input[type=password]{
+	background: #fff;   
+}
+#homepage form input[type=checkbox]{
+	border:0;
+}
+#homepage form input#signin-submit{
+	font-weight:bold;
+	text-shadow: 1px 1px 0px #035589;
+}
+#authenticate, #homepage form input#signin-submit{
+	filter: dropshadow(color=#035589, offx=1, offy=1); 
+	zoom:1; 
+} 
+#homepage #invitation .selectbox{
+	background: #B9D2E1 url("../img/select-bg.png") no-repeat 198px 20px;
+}        
+#homepage.error #invitation .wrapper{
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e94e4c', endColorstr='#b43820',GradientType=1 );  
+}  
+#homepage #invitation #invite-submit{
+	height:47px;  
+	margin-top:-1px;
+}
+
+
+/* dashboard */  
+
+#dashboard #global-wrapper, #global-wrapper{
+	padding-top:110px;
+	margin:0 !important;
+} 
+#homepage .form-container{
+   background: transparent;-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#339F9386,endColorstr=#339F9386)"; /* IE8 */    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#339F9386,endColorstr=#339F9386);   /* IE6 & 7 */      zoom: 1;  
+}  
+.network-list ul li{
+	background:url('../img/group-list.png') repeat-y 0 0 !important;	 
+}
+   
+#log-out{
+	background:#bbb5ac url("../img/logout.png") no-repeat 63px 8px;	
+} 
+/*#networks-list{
+	border-right:1px solid #acaaa5;  
+} */
+#networks-list:after{  
+	/*background:none !important;*/   
+	/*overflow:hidden;  */  
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/network-group-right-bg.png',sizingMethod='scale') !important; 
+}  
+#profile-user-password, #profile-user-confirm-password, #homepage form input#signin-pass{
+	font-family:arial !important;
+}
+
+/* start board */
+
+#start-a-board .board-name, .work-group{
+	filter:  progid:DXImageTransform.Microsoft.dropShadow(color=#eae7e4, offX=2, offY=2, positive=true);     
+}
+#start-a-board .board-name{
+	background-color:#fff;  
+}   
+.network-list ul li:hover, .network-list ul li.active {
+    background: url("../img/active-list-back.png") no-repeat scroll 0 0 transparent  !important;
+}    
+#container .wrapper {
+    background: transparent;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#33171615,endColorstr=#33171615)";
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#33171615,endColorstr=#33171615);
+ 	zoom: 1;
+}        
+#create-board{
+   	background: url('../img/create-board-bt.png') no-repeat scroll top left;
+	width: 146px;
+	height: 33px !important;
+	padding:0; 
+	text-indent:-999px;  
+}      
+
+.network-list ul li:hover, .network-list ul li.active{
+	filter:0 !important;
+}   
+#search-participants-box{
+	line-height:26px;
+}             
+
+/* sign up */      
+
+#authenticate{
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#128EC4', endColorstr='#13689D',GradientType=1 ); 
+   zoom:1;
+} 
+#authenticate:hover{
+	background-color:#a5b822 !important; 
+	filter: dropshadow(color=#a5b822, offx=1, offy=1);
+}     
+
+#signup_activation .form-container{
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#339F9386,endColorstr=#339F9386); 
+	zoom:1;                     
+}           
+#signup_activation .signup-form{
+   	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#F4FFFFFF,endColorstr=#F4FFFFFF);     
+	zoom:1; 
+}

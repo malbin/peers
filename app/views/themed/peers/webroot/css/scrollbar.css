@@ -1,0 +1,59 @@
+/* Tiny Scrollbar */
+/* Boards section */
+.scrollbar-container .viewport{width:500px;height:300px;overflow:hidden;position:relative;}
+.scrollbar-container .overview{list-style:none;position:absolute;left:0;top:0;padding:0;margin:0;}
+.scrollbar-container .scrollbar{position:relative;background-position:0 0;float:right;width:5px;}
+.scrollbar-container .track{background:#f0eeec;height:100%;width:5px;position:relative;padding:0 1px;}
+.scrollbar-container .thumb{background:#d73f33;height:20px;width:5px;cursor:pointer;overflow:hidden;position:absolute;top:0;left:1px;}
+.scrollbar-container .disable{display:none;}
+
+/* Network Panel */
+#network-panel .viewport {
+	width: 480px;
+	height: 300px;
+	overflow: hidden;
+	position: relative;
+}
+#network-panel .overview {
+	list-style: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 0;
+	margin: 0;
+}
+#network-panel .scrollbar {
+	position: relative;
+	background-position: 0 0;
+	float: right;
+	width: 5px;
+}
+#network-panel .track {
+	background: #f0eeec;
+	height: 100%;
+	width: 5px;
+	position: relative;
+	border: 1px solid #e6e3df;
+	-moz-border-radius: 4px; /* FF1+ */
+	-webkit-border-radius: 4px; /* Saf3+, Chrome */
+	border-radius: 4px; /* Opera 10.5, IE 9 */
+}
+
+#network-panel .thumb {
+	background: #8f897f;
+	height: 20px;
+	width: 6px;
+	cursor: pointer;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+	-moz-border-radius: 4px; /* FF1+ */
+	-webkit-border-radius: 4px; /* Saf3+, Chrome */
+	border-radius: 4px; /* Opera 10.5, IE 9 */
+	
+}
+#network-panel .disable {
+	display: none;
+}

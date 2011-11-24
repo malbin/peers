@@ -1,0 +1,93 @@
+#confirmOverlay{
+	width:100%;
+	height:100%;
+	position:fixed;
+	top:0;
+	left:0;
+	background:rgba(102,92,82,0.7);
+	z-index:100000;
+}
+
+#confirmBox{
+	width:460px;
+	background:#665c51;
+	padding:20px;
+	position:fixed;
+	left:50%;
+	top:50%;
+	margin:-130px 0 0 -230px;
+	border:1px solid #787065;
+	
+	-moz-border-radius: 10px; /* FF1+ */
+	-webkit-border-radius: 10px; /* Saf3+, Chrome */
+	border-radius: 10px; /* Opera 10.5, IE 9 */
+	
+	-moz-box-shadow: 0px 0px 10px rgba(0,0,0,0.5); /* FF3.5+ */
+	-webkit-box-shadow: 0px 0px 10px rgba(0,0,0,0.5); /* Saf3.0+, Chrome */
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.5); /* Opera 10.5, IE 9.0 */
+}
+#confirmBody{
+	background:#fff;
+	font-family:"lato";
+	-moz-box-shadow: 0px 0px 2px rgba(0,0,0,0.5); /* FF3.5+ */
+	-webkit-box-shadow: 0px 0px 2px rgba(0,0,0,0.5); /* Saf3.0+, Chrome */
+	box-shadow: 0px 0px 2px rgba(0,0,0,0.5); /* Opera 10.5, IE 9.0 */
+	padding:20px 30px;
+}
+
+
+#confirmBox h1{
+	color: #565656;
+	font-family: 'Lato';
+	font-size: 30px;
+	font-weight: 400;
+	text-align: center;
+	text-transform: uppercase;
+	color:#888;
+	margin-bottom:20px;
+}
+
+#confirmBox p{
+	color: #867970;
+	font-size: 18px;
+	font-weight: normal;
+	text-transform: none;
+	text-align:center;
+}
+
+#confirmButtons{
+	padding:35px 0 25px;
+	text-align:center;
+}
+
+#confirmBox .button{
+	  border: 1px solid #cdc9c5;
+    color: #7f7c76;
+    display: inline-block;
+    font-family: "lato";
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+	box-shadow: inset 0px -3px 0px rgba(221, 217, 211, 1);
+	-moz-box-shadow: inset 0px -3px 0px rgba(221, 217, 211, 1);
+	-webkit-box-shadow: inset 0px -3px 0px rgba(221, 217, 211, 1);
+    background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0, rgb(229,228,224)),
+		color-stop(0.99, rgb(255,255,255))
+    );
+    background-image: -moz-linear-gradient(
+        center bottom,
+        rgb(229,228,224) 0%,
+        rgb(255,255,255) 99%
+    );
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+  margin:0 20px;
+padding: 11px 20px 11px;
+min-width:80px;
+}
